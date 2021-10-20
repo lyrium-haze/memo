@@ -1,8 +1,8 @@
 body {
-    background-color:rgba(241, 147, 53, 0.74);
+    background-color:mediumseagreen;
 }
 #grid {
-    background-color: pink;
+    background-color: #0e77be;
     margin: auto;
     display: grid;
     width: max-content;
@@ -42,7 +42,14 @@ img {
 }
 #intro {
     position: absolute;
-    margin: 50vh 40vw;
+    margin: 25vh 38vw;
+    text-align: center;
+}
+.title {
+    margin: 20% 0;
+    width: 21vw;
+    font-size: 42px;
+    color: #0b2f40;
 }
 #start-btn {
     width: 180px;
@@ -51,6 +58,6 @@ img {
     font-weight: 700;
     font-size: 18px;
     border-style: hidden;
-    color:cornsilk;
-    background-color:limegreen;
+    color: #5f5d5d;
+    background-color: #f0bb3f;
 }
