@@ -1,0 +1,56 @@
+body {
+    background-color:rgba(241, 147, 53, 0.74);
+}
+#grid {
+    background-color: pink;
+    margin: auto;
+    display: grid;
+    width: max-content;
+    height: max-content;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2%;
+    row-gap: 2%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    transform: rotateY(0deg);
+    /* background-color: brown; */
+}
+.card-hidden {
+    content: url(img/back.png);
+} 
+.card-selected {
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    transform: rotateY(180deg);
+
+}
+.card-removed {
+    opacity: 0;
+}
+img {
+    width: inherit;
+    height: inherit;
+}
+#intro {
+    position: absolute;
+    margin: 50vh 40vw;
+}
+#start-btn {
+    width: 180px;
+    height: 50px;
+    font-family:'Lucida Sans';
+    font-weight: 700;
+    font-size: 18px;
+    border-style: hidden;
+    color:cornsilk;
+    background-color:limegreen;
+}
